@@ -38,5 +38,6 @@ module.exports = {
       'max-len': 0, // 每行限制長度
       'no-console': 0, // 關閉console提示
       'no-shadow': 0, // 禁止在{}中出現重複命名 例如 let a; function b() { let a }
+      'linebreak-style': ["off", "windows"],
   }
 }
